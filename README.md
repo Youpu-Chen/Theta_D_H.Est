@@ -11,7 +11,14 @@
 
 ---
 
+### Notes
+
+- for common users, the autosomes (and chrX) variants set can be applied directly, but for the haploid varinats dataset like chrY, the haploid-filling process is need which requires the sample file with two columns: 1) sampleID, 2) which haplotype to use
+  - `hapFill.py` can help you to conduct this process
+  - `ThetaEstDemo.py` is a numpy-based scripts which speed up the theta calculation. Only allowed for theta pi and theta k (theta watterson) calculation right now.
+
 ### Description: 
+
 To calculate the following statistic within given regions:
 
 - number of sequence
